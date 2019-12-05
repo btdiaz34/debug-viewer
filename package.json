@@ -47,7 +47,7 @@
         "prettier": "prettier --write '**/*.{css,html,js,json,md,ts,yaml,yml}'",
         "prettier:verify": "prettier --list-different '**/*.{css,html,js,json,md,ts,yaml,yml}'",
         "serve": "lwc-services serve",
-        "start" : "/src/server.js",
+        "start": "node ./src/server.js",
         "test:unit": "lwc-services test:unit",
         "test:unit:coverage": "lwc-services test:unit --coverage",
         "test:unit:debug": "lwc-services test:unit --debug",
