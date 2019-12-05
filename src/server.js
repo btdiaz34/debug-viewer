@@ -9,6 +9,7 @@ app.get('/oauth2/auth', (req, res) => {
 app.get('/oauth2/callback', (req, res) => {
     const code = req.param('code');
     console.log(code);
+    res.status(200).send('ok');
 });
 app.get('/', (req, res) => {
     res.status(200).send('ok');
