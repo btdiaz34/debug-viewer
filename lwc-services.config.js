@@ -5,6 +5,12 @@ module.exports = {
         {
             from: 'src/resources',
             to: 'dist/resources'
+        },
+        server: {
+            port: 3000,
+            host: 'localhost',
+            open: false,
+            customConfig: './src/server.js'
         } /*,
         {
             from: 'node_modules/@salesforce-ux/design-system/assets',
